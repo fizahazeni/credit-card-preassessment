@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <h1>Credit Card Customer Pre-Assessment Portal</h1>
+
+        <h3>Welcome to ABC's Credit Card Customer Pre-Assessment Portal. Customers may use this page to determine their suitability for the credit card selected, by comparing the result of our in built Machine Learning Models. To continue, please fill up the form below.</h3>
+
+        <form action="/" method="post">
+            
+            <h3><p>1. What is your Age?</p></h3>
+            <p><input type="number" step="1" name="age"></p>
+            
+            <h3><p>2. How many years have you been employed?</p></h3>
+            <p><input type="number" step="1" name="yearsemployed"></p>
+
+            <h3><p>3. What is your Annual Income?</p></h3>
+            <p><input type="number" step="500" name="amtincometotal"></p>
+
+            <h3><p>4. What is your gender?</p></h3>
+            <input type="checkbox" name="gender" value="Male">
+            <label for="Gender1"> Male</label><br>
+            <input type="checkbox" name="gender" value="Female">
+            <label for="Gender2"> Female</label><br>
+
+            <h3><p>5. What is your Marital Status?</p></h3>
+            <input type="checkbox" name="family" value="Married">
+            <label for="family1">Married</label><br>
+            <input type="checkbox" name="family" value="Single / not married">
+            <label for="family2">Single / not married</label><br>
+            <input type="checkbox" name="family" value="Separated">
+            <label for="family2">Separated</label><br>
+            <input type="checkbox" name="family" value="Widow">
+            <label for="family3">Widow</label><br>
+            
+            <h3><p>6. How many family members do you have? (Please exclude yourself)</p></h3>
+            <p><input type="number" step="1" name="familymem"></p>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p> Pre Assessment Status (Random Forest):{{result1}}</p>
+        <p> Pre Assessment Status (Decision Tree):{{result2}}</p>
+        <p> Pre Assessment Status (Logistic Regression):{{result3}}</p>
+    </body>
+</html> 
