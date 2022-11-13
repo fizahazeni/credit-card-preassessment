@@ -1,5 +1,5 @@
 input[type=checkbox] {
-	vertical-align: middle;
+	vertical-align: left;
 	float: right;
   }
   label {
@@ -16,10 +16,10 @@ input[type=checkbox] {
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, #ff7200 50%,rgba(0, 0, 0, 0.988)50%), url(1.jpg);
+    background: linear-gradient(to top, #ffc595 50%,rgba(0, 0, 0, 0.988)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 110vh;
+    height: 130vh;
 }
 
 .navbar{
@@ -35,7 +35,7 @@ input[type=checkbox] {
 }
 
 .logo{
-    color: #ff7200;
+    color: #ffc595;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -73,7 +73,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: #070707;
 }
 
 .search{
@@ -87,7 +87,7 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7200;
+    border: 1px solid #ffc595;
     margin-top: 13px;
     color: #fff;
     border-right: none;
@@ -163,16 +163,16 @@ ul li a:hover{
 
 .content .cn a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     transition: .3s ease;
 }
 
 .cn:hover{
-    background-color: #fff;
+    background-color: rgb(155, 155, 155);
 }
 
 .content span{
-    color: #ff7200;
+    color: #f9bf8f;
     font-size: 65px
 }
 
@@ -192,7 +192,7 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: #cc9160;
     font-size: 22px;
     background-color: #fff;
     border-radius: 10px;
@@ -204,7 +204,7 @@ ul li a:hover{
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid #ff7200;
+    border-bottom: 1px solid #ffc595;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -227,7 +227,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: #ff7200;
+    background: #ffc595;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -238,7 +238,7 @@ ul li a:hover{
 }
 .btnn:hover{
     background: #fff;
-    color: #ff7200;
+    color: #ffc595;
 }
 .btnn a{
     text-decoration: none;
@@ -253,7 +253,7 @@ ul li a:hover{
 }
 .form .link a{
     text-decoration: none;
-    color: #ff7200;
+    color: #ffc595;
 }
 .liw{
     padding-top: 15px;
@@ -272,11 +272,11 @@ ul li a:hover{
     transition: 0.3s ease;
 }
 .icons ion-icon:hover{
-    color: #ff7200;
+    color: #ffc595;
 }
 
 :root {
-	--primary-color:#ff7200;
+	--primary-color:#ffc595;
 }
 
 * {
@@ -288,7 +288,7 @@ ul li a:hover{
 body {
 	font-family: 'Arial' , sans-serif;
 	--webkit-font-smoothing: antialiased;
-	background: #ff7200;
+	background: #ffc595;
 	color: rgb(255, 255, 255);
 	text-align: center;
 }
